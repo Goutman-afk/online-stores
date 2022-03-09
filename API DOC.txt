@@ -1,0 +1,36 @@
+Hiện thị sản phẩm :
+ http://localhost:3000/products , 	api: 	https://localhost:44357/api/Products/
+
+Hiện thị sản phẩm đã bị xóa : 
+http://localhost:3000/products/del , 	api: 	https://localhost:44357/api/Products/del
+
+Xóa một sản phẩm : 
+post api :https://localhost:44357/api/products/del/id
+
+
+Khôi Phục một sản phẩm
+post api  https://localhost:44357/api/products/restore/+id  
+
+
+Thêm một sản phẩm 
+http://localhost:3000/products/create    post api: https://localhost:44357/api/Products/add
+
+
+Chỉnh sửa một sản phẩm :
+ http://localhost:3000/products/id/edit  post api: 	https://localhost:44357/api/Products/edit/id
+
+Thêm một cửa hàng :
+http://localhost:3000/Store/create   	 post api :	https://localhost:44357/api/Stores
+
+Hiện thị các cửa hàng :
+api : http://localhost:3000/Store/
+
+
+Thêm một loại sản phẩm :
+http://localhost:3000/products/ProductType   post api: https://localhost:44357/api/ProductTypes
+
+
+Xem đánh giá đơn hàng :
+http://localhost:3000/OrderEvaluation       get api : https://localhost:44357/api/OrderEvaluations
+
+
